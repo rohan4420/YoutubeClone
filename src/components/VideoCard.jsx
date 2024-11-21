@@ -4,7 +4,7 @@ import React from "react";
 
 function VideoCard(props) {
   return (
-    <div>
+    <div className="p-2 cursor-pointer">
       <img className="rounded-xl" src={props.image}  alt="" />
       <div className="grid grid-cols-12 pt-2">
         <div className="col-span-1">
